@@ -24,7 +24,7 @@ Write your own steps
 
 ### Name:Vismaya
 ### Register Number:212221230125
-
+```
 import numpy as np
 from tensorflow import keras
 from tensorflow.keras import layers
@@ -128,7 +128,7 @@ print(x_single_prediction1)
 print("Vismaya")
 print("212221230125")
 plt.imshow(img_28_gray_inverted_scaled1.reshape(28,28),cmap='gray')
-
+```
 ## OUTPUT
 
 ### Reshape and Normalize output
