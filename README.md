@@ -5,6 +5,9 @@
 To Develop a convolutional deep neural network for digit classification.
 
 ## Problem Statement and Dataset
+The goal of this project is to develop a Convolutional Neural Network (CNN) to classify handwritten digits using the MNIST dataset. Handwritten digit classification is a fundamental task in image processing and machine learning, with various applications such as postal code recognition, bank check processing, and optical character recognition systems.
+
+The MNIST dataset consists of 28x28 grayscale images of handwritten digits (0-9), totaling 60,000 training images and 10,000 test images. The challenge is to train a deep learning model that accurately classifies the images into the corresponding digits.
 
 ## Neural Network Model
 
@@ -13,12 +16,16 @@ Include the neural network model diagram.(http://alexlenail.me/NN-SVG/index.html
 ## DESIGN STEPS
 
 ### STEP 1:
-Write your own steps
+Import the necessary libraries and Load the data set.
 
 ### STEP 2:
+Reshape and normalize the data.
 
 ### STEP 3:
+In the EarlyStoppingCallback change define the on_epoch_end funtion and define the necessary condition for accuracy
 
+### STEP 4:
+Train the model
 
 ## PROGRAM
 
@@ -133,13 +140,15 @@ plt.imshow(img_28_gray_inverted_scaled1.reshape(28,28),cmap='gray')
 
 ### Reshape and Normalize output
 
-Include your screenshot here
+![image](https://github.com/user-attachments/assets/a3c74ad8-1c62-41cc-bb32-de0388d77fbb)
+
 
 ### Training the model output
+![image](https://github.com/user-attachments/assets/2414f7b9-f5cc-4864-bfca-c534b3445aaf)
 
-Include training output screenshot here
+
 
 
 
 ## RESULT
-Include your result here.
+Thus the program for developing a convolutional deep neural network for digit classification.
