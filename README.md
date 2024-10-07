@@ -10,8 +10,7 @@ The goal of this project is to develop a Convolutional Neural Network (CNN) to c
 The MNIST dataset consists of 28x28 grayscale images of handwritten digits (0-9), totaling 60,000 training images and 10,000 test images. The challenge is to train a deep learning model that accurately classifies the images into the corresponding digits.
 
 ## Neural Network Model
-
-Include the neural network model diagram.(http://alexlenail.me/NN-SVG/index.html)
+![image](https://github.com/user-attachments/assets/13ae0218-5a11-49e6-ac4f-824a5a2b703a)
 
 ## DESIGN STEPS
 
@@ -122,7 +121,7 @@ plt.imshow(img_28_gray_scaled.reshape(28,28),cmap='gray')
 img1 = image.load_img('/content/zero.jfif')
 plt.imshow(img1)
 print("Vismaya")
-print("21221230125")
+print("212221230125")
 img_tensor1 = tf.convert_to_tensor(np.asarray(img1))
 img_28_gray1 = tf.image.resize(img_tensor1,(28,28))
 img_28_gray1 = tf.image.rgb_to_grayscale(img_28_gray1)
@@ -135,6 +134,7 @@ print(x_single_prediction1)
 print("Vismaya")
 print("212221230125")
 plt.imshow(img_28_gray_inverted_scaled1.reshape(28,28),cmap='gray')
+
 ```
 ## OUTPUT
 
